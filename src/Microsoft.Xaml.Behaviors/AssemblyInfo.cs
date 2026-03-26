@@ -1,4 +1,4 @@
-﻿// Copyright (c) Microsoft. All rights reserved. 
+// Copyright (c) Microsoft. All rights reserved. 
 // Licensed under the MIT license. See LICENSE file in the project root for full license information. 
 
 using System;
@@ -30,12 +30,12 @@ using Microsoft.Xaml.Behaviors;
 [assembly: SuppressMessage("Microsoft.Performance", "CA1824:MarkAssembliesWithNeutralResourcesLanguage")]
 [assembly: System.Resources.NeutralResourcesLanguage("en", System.Resources.UltimateResourceFallbackLocation.MainAssembly)]
 
-[assembly: XmlnsPrefix(@"http://schemas.microsoft.com/xaml/behaviors", "b")]
-[assembly: XmlnsDefinition(@"http://schemas.microsoft.com/xaml/behaviors", "Microsoft.Xaml.Behaviors")]
-[assembly: XmlnsDefinition(@"http://schemas.microsoft.com/xaml/behaviors", "Microsoft.Xaml.Behaviors.Core")]
-[assembly: XmlnsDefinition(@"http://schemas.microsoft.com/xaml/behaviors", "Microsoft.Xaml.Behaviors.Input")]
-[assembly: XmlnsDefinition(@"http://schemas.microsoft.com/xaml/behaviors", "Microsoft.Xaml.Behaviors.Layout")]
-[assembly: XmlnsDefinition(@"http://schemas.microsoft.com/xaml/behaviors", "Microsoft.Xaml.Behaviors.Media")]
+[assembly: XmlnsPrefix(@"http://schemas.devtools.ui/xaml/behaviors", "b")]
+[assembly: XmlnsDefinition(@"http://schemas.devtools.ui/xaml/behaviors", "Microsoft.Xaml.Behaviors")]
+[assembly: XmlnsDefinition(@"http://schemas.devtools.ui/xaml/behaviors", "Microsoft.Xaml.Behaviors.Core")]
+[assembly: XmlnsDefinition(@"http://schemas.devtools.ui/xaml/behaviors", "Microsoft.Xaml.Behaviors.Input")]
+[assembly: XmlnsDefinition(@"http://schemas.devtools.ui/xaml/behaviors", "Microsoft.Xaml.Behaviors.Layout")]
+[assembly: XmlnsDefinition(@"http://schemas.devtools.ui/xaml/behaviors", "Microsoft.Xaml.Behaviors.Media")]
 
 [assembly: SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes", Scope = "namespace", Target = "Microsoft.Xaml.Behaviors")]
 
