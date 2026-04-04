@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <AssemblyName>DevTools.Microsoft.Xaml.Behaviors</AssemblyName>
-    <TargetFrameworks>net462;net8.0-windows</TargetFrameworks>
+    <TargetFrameworks>net48;net8.0-windows;net10.0-windows</TargetFrameworks>
     <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);IncludeProjectToProjectAssets</TargetsForTfmSpecificBuildOutput>
     <OutputType>Library</OutputType>
     <PackageId>Microsoft.Xaml.Behaviors.Wpf</PackageId>
@@ -69,8 +69,8 @@
   
   <Target Name="IncludeProjectToProjectAssets">
     <ItemGroup>
-      <BuildOutputInPackage Include="$(ProjectDir)bin\$(Configuration)\net462\Design\Microsoft.Xaml.Behaviors.Design.dll" TargetPath="Design\Microsoft.Xaml.Behaviors.Design.dll" Condition="'$(TargetFramework)' == 'net462'" />
-      <BuildOutputInPackage Include="$(ProjectDir)bin\$(Configuration)\net462\Design\Microsoft.Xaml.Behaviors.DesignTools.dll" TargetPath="Design\Microsoft.Xaml.Behaviors.DesignTools.dll" />
+      <BuildOutputInPackage Include="$(ProjectDir)bin\$(Configuration)\net48\Design\Microsoft.Xaml.Behaviors.Design.dll" TargetPath="Design\Microsoft.Xaml.Behaviors.Design.dll" Condition="'$(TargetFramework)' == 'net48'" />
+      <BuildOutputInPackage Include="$(ProjectDir)bin\$(Configuration)\net48\Design\Microsoft.Xaml.Behaviors.DesignTools.dll" TargetPath="Design\Microsoft.Xaml.Behaviors.DesignTools.dll" />
     </ItemGroup>
   </Target>
 
