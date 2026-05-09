@@ -25,7 +25,6 @@
     <UseWPF>true</UseWPF>
     <GenerateNuspecDependsOn>$(GenerateNuspecDependsOn);TimestampNugetPackage</GenerateNuspecDependsOn>
     <NoWarn>1701;1702;1591</NoWarn>
-    <DelaySign>true</DelaySign>
   </PropertyGroup>
   
   <Import Project="..\Microsoft.Xaml.Behaviors.Signing.targets" />
